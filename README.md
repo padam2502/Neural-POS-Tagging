@@ -1,6 +1,7 @@
 
 # Neural-POS-Tagging
-=======
+
+Neural part-of-speech (POS) tagging is a natural language processing (NLP) task that involves assigning the appropriate part-of-speech tags (such as noun, verb, adjective, etc.) to each word in a given sentence. Neural networks have been widely employed to tackle this task, leveraging their ability to learn intricate patterns and capture contextual information.
 
 
 ## Description
