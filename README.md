@@ -1,14 +1,27 @@
-<<<<<<< HEAD
+
 # Neural-POS-Tagging
 =======
-# Assignment2
 
 
 ## Description
 
 Implemented the following :
-- POS Tagger model using LSTM 
+- POS Tagger model using LSTM
 
+Designed, implemented and trained a neural sequence model (LSTM) to (tokenize and) tag a given sentence with the correct
+part-of-speech tags. For example, given the input
+Mary had a little lamb
+your model should output
+Mary  NOUN
+had  VERB
+a  DET
+little  ADJ
+lamb  NOUN
+
+Tuned for optimal hyperparameters (embedding size, hidden size, number of layers,
+learning rate, complexity of decoding network) and prepared a detailed report on accuracy, precision,
+recall and F1-score of the trained model (refer to this function).
+Analysed the results (both the scores as well as the optimal hyperparameters).
 ## Getting Started
 
 ### Dependencies
