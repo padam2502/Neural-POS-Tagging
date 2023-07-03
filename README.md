@@ -10,12 +10,19 @@ Implemented the following :
 
 Designed, implemented and trained a neural sequence model (LSTM) to (tokenize and) tag a given sentence with the correct
 part-of-speech tags. For example, given the input
+
 Mary had a little lamb
-your model should output
+
+model should output
+
 Mary  NOUN
+
 had  VERB
+
 a  DET
+
 little  ADJ
+
 lamb  NOUN
 
 Tuned for optimal hyperparameters (embedding size, hidden size, number of layers,
